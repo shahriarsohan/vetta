@@ -5,6 +5,9 @@ import Image from 'next/image'
 const Home: NextPage = () => {
   return (
     <div>
+      <Head>
+        <title>Vetta | Site Under Construction</title>
+      </Head>
       <div className="overlay" />
       <div className="stars" aria-hidden="true" />
       <div className="starts2" aria-hidden="true" />
