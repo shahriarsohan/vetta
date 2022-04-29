@@ -4,16 +4,35 @@ import Image from 'next/image'
 
 const Home: NextPage = () => {
   return (
-    <div>
-      <div className="overlay" />
-      <div className="stars" aria-hidden="true" />
-      <div className="starts2" aria-hidden="true" />
-      <div className="stars3" aria-hidden="true" />
-      <main className="main">
-        <section className="contact">
-          <h1 className="title text-center">Vetta</h1>
-          <h2 className="sub-title capitalize">we will serve you soon</h2>
-        </section>
+    <div className="flex h-screen items-center justify-center font-monster">
+      <main>
+        <h1 className="mb-3 text-center text-3xl font-extrabold capitalize sm:text-6xl">
+          UNDER CONSTRUCTION
+        </h1>
+
+        <div className="flex justify-center">
+          <Image
+            className="w-5/6"
+            src="/images/img.png"
+            height={400}
+            width={400}
+          />
+        </div>
+        <div>
+          <p className="m-auto mt-2 w-3/4 text-center font-monster text-sm sm:text-lg">
+            Our website is under construction. We are preparing something
+            amazing and exciting for you! Have questions in the mean time?
+          </p>
+        </div>
+        <a
+          href="mailto:abrar.hossain.adib@gmail.com"
+          className="m-auto mt-4 flex w-64 justify-center rounded-md bg-black px-5 py-3 text-white"
+        >
+          Contact
+        </a>
+        <p className="mt-10 text-center  text-gray-500">
+          All rights reserved - Vetta © 2022
+        </p>
       </main>
     </div>
   )
