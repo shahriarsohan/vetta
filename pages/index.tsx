@@ -11,11 +11,11 @@ const Home: NextPage = () => {
         </h1>
 
         <div className="flex justify-center">
-          <Image
-            className="w-5/6"
+          <img
+            // className="w-5/6"
             src="/images/img.png"
-            height={400}
-            width={400}
+            height={500}
+            width={500}
           />
         </div>
         <div>
@@ -26,7 +26,7 @@ const Home: NextPage = () => {
         </div>
         <a
           href="mailto:abrar.hossain.adib@gmail.com"
-          className="m-auto mt-4 flex w-64 justify-center rounded-md bg-black px-5 py-3 text-white"
+          className="m-auto mt-4 flex w-44 justify-center rounded-2xl bg-black px-4 py-2 text-white"
         >
           Contact
         </a>
